@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Radio button in form</title>
+</head>
+<body>
+    <!-- as class ma hum buttons ka bara ma parhe ga form ma ka form ma buttons ko kesa use karta ha -->
+    <h2> Radio Buttons</h2>
+    <form>
+        <p>Please select your favorite genre:
+         <br />
+         <input type="radio" name="genre" value="rock"
+         checked="checked" /> Rock
+         <input type="radio" name="genre" value="pop" />
+         Pop
+         <input type="radio" name="genre" value="jazz" />
+         Jazz
+         <input type="radio"   name="genre" value="Radio" >
+         radio
+        </p>
+        </form><br>
+        <!-- radio button ma hum sirf aik option ko select karsaktta ha -->
+        <hr>
+        <h2>Checkbox Buttons</h2>
+        <!-- checkbox button ma hum multiple option ko select karsakta ha -->
+        <form>
+                <p>Please select your favorite music service(s):
+                 <br />
+                 <!-- checked is use to select a option by dafault -->
+                 <input type="checkbox" name="service"
+                 value="itunes" checked="checked" /> iTunes 
+                 <input type="checkbox" name="service"
+                 value="lastfm" /> Last.fm
+                 <input type="checkbox" name="service"
+                 value="spotify" /> Spotify
+                 <input type="checkbox" name="service" value="Tamasha">
+                 Tamasha 
+                </p>
+        </form><br>
+        <hr>
+        <form>
+        <h2>Submit Button</h2>
+        <p>Subscribe to our email</p>
+        <input type="text" name="email">
+        <input type="submit" value="Subscribe">
+    </form>  
+    <br><hr>
+    <h2>Image button</h2>
+    <!-- yaha hum submit button ke jaga image ko b submit bana sakta ha -->
+    <form>
+        <p>Subsribe to our email list</p>
+        <input type="text" name="email">
+        <input type="image" src="./Images/IMG-1.jpg" width="20px" height="20px">
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;}
+.inherit {
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;} */
+
+div{
+    font-family: Arial, Verdana, sans-serif;
+    color: green;
+    padding: 10px;
+    border: 1px solid black;
+}
+p{
+    border: 1px solid rgb(22, 33, 192);
+    background-color:inherit;
+    padding: 10px;  
+    font-family: inherit
+}

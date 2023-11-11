@@ -1,0 +1,25 @@
+/* LAST RULE */
+/* p{
+    color: blue;
+    border: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+} */
+
+
+/* SPECIFICITY RULE */
+/* p{
+    color: yellow;
+}
+*{
+    color: blue;
+} */
+/* Important */
+p{
+    color: blue !important;}
+p {
+    color: rgb(39, 19, 39);}
