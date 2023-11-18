@@ -1,0 +1,30 @@
+/* Existence Attribute 
+
+ h1[class]{
+    color: red;
+} 
+
+ Equality Attruibute 
+ h2[class="Hi"]{
+    color: brown;
+ }
+
+ Space Attribute 
+ h3[class~='friends']{
+    color: tomato;
+ }
+ */
+ /* prefix attribute */
+ /* p[id^="l"]
+{
+    color: red;
+} */
+
+/* Substring attribute */
+/* p[id*="su"]{
+   color: red;
+} */
+ /* suffix attribute */
+ p[id$="er"]{
+   color: red;
+}
