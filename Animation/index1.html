@@ -1,0 +1,32 @@
+
+<html>
+<head>
+  <title>HTML CSS Animation Example</title>
+  <style>
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="circle"></div>
+</body>
+</html>
+

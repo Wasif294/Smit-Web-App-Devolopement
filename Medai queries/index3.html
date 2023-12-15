@@ -1,0 +1,43 @@
+
+<html>
+<head>
+  <title>Media Queries Example</title>
+  <style>
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: blue;
+  font-size: 32px;
+}
+
+p {
+  color: red;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to my website!</h1>
+    <p>This is some content on my website.</p>
+  </div>
+</body>
+</html>

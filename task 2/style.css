@@ -1,0 +1,21 @@
+body{
+    background-image: url(./images/images.jpeg);
+    background-size: cover;
+}
+h1{
+    color: white;
+}
+#h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: white;
+}
+hr{
+   width: 200px; 
+}
